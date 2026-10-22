@@ -1,0 +1,55 @@
+Page: http://choosecarolinas.com/
+<title>RJR Real Estate Group</title>
+<meta name="description" content="Serving sellers with property sales and home buyers find MLS homes in the Charlotte Metro Area, Cabarrus, Concord, Harrisburg, Kannapolis, Lake Norman.  ">
+
+====================================================================================================================
+Page: http://choosecarolinas.com/Aboutus.html
+<title>About Us | RJR Real Estate Group</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://choosecarolinas.com/Buying.html
+<title>Buying | RJR Real Estate Group</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://choosecarolinas.com/Contacts.html
+<title>Contact Us | RJR Real Estate Group</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://choosecarolinas.com/Finance.html
+<title>Finance | RJR Real Estate Group</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://choosecarolinas.com/index.html
+<title>RJR Real Estate Group</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://choosecarolinas.com/Jeff_Goforth.html
+<title>Marie Skelnik | RJR Real Estate Group</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://choosecarolinas.com/Marie_Skelnik.html
+<title>Marie Skelnik | RJR Real Estate Group</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://choosecarolinas.com/Privacy.html
+<title>Privacy | RJR Real Estate Group</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://choosecarolinas.com/Ray_Blackburn.html
+<title>Ray Blackburn | RJR Real Estate Group</title>
+<meta name="description" content="">
+
+====================================================================================================================
+Page: http://choosecarolinas.com/Selling.html
+<title>Selling | RJR Real Estate Group</title>
+<meta name="description" content="">
+
+====================================================================================================================

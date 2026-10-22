@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RJR Real Estate Group</title>
+     <meta name="description" content="Serving sellers with property sales and home buyers find MLS homes in the Charlotte Metro Area, Cabarrus, Concord, Harrisburg, Kannapolis, Lake Norman">
+     <meta name="keywords" content="residential real estate, buy a home, search properites for sale, broker, realtor, mls listings, commerial sales, north carolina, NC, Charlotte, Kannapolis, Huntersville, Harrisburg, Mecklenburg, Cabarrus County, Listing Savings">
+     <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <script type="text/javascript" src="js/jquery-1.6.js"></script>
+    <script type="text/javascript" src="js/cufon-yui.js"></script>
+    <script type="text/javascript" src="js/cufon-replace.js"></script>
+    <script type="text/javascript" src="js/Didact_Gothic_400.font.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript" src="js/atooltip.jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.jqtransform.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <!--[if lt IE 9]>
+			<script type="text/javascript" src="js/html5.js"></script>			<style type="text/css">				.bg{ behavior: url(js/PIE.htc); }			</style>
+		<![endif]-->
+    <!--[if lt IE 7]>
+			<div style=' clear: both; text-align:center; position: relative;'>				<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0"  alt="" /></a>			</div>		<![endif]-->
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+
+            property1 = new Object();
+          property1.imageurl = "images/4848_Covington_Drive_Concord_NC_Website.png";
+            property1.address = "4848 Covington Drive NW, Concord, NC 28027";
+            property1.description = "Spacious Home in sought after Covington Community!";
+            property1.price = "Price: $ 449,900";
+            property1.readmoreurl = "featured_detail.asp?url=http://huscu.localhomesearch.net/idx/property/4848_NW_Covington_Drive_Concord_NC_28027,res_1345268.html";
+            
+            property2 = new Object();
+            property2.imageurl = 
+          "images/6281_Rocky_Wagon_Lane_Concord_NC_Website.jpg";
+            property2.address = "6281 Rocky Wagon Lane SW, Concord, NC 28025";
+            property2.description = "Brand New Home in Great Area!";
+            property2.price = "Price: $ 365,000";
+            property2.readmoreurl = "featured_detail.asp?url=https://www.tourfactory.com/2919810";
+            
+            property3 = new Object();
+            property3.imageurl = "images/123_N_Walnut_Street_Salisbury_NC_Website.jpg";
+            property3.address = "123 N Walnut Street, Salisbury, NC 28146";
+            property3.description = "Beautifully remodeled, rare find in Granite Quarry. A must see!";
+            property3.price = "Price: $ 239,900";
+            property3.readmoreurl = "featured_detail.asp?url=https://www.tourfactory.com/2857300";
+
+            property4 = new Object();
+            property4.imageurl = "images/3613_Artists_Way_Charlotte_NC_Website.png";
+            property4.address = "Beautiful 3 Story in NODA";  
+            property4.description = "Short walk to the Blue Line";
+            property4.price = "Price: $ 249,900";
+            property4.readmoreurl = "featured_detail.asp?url=https://www.tourfactory.com/2691743";
+
+            //property4 = new Object();
+            //property4.imageurl = "images/2244_Quail_Drive_Concord_NC_Website.png";
+            //property4.address = "2244 Quail Drive, Concord, NC 28027";
+            //property4.description = "A Must See Home with Lots of Updates";
+            //property4.price = "Price: $ 265,000";
+            //property4.readmoreurl = "featured_detail.asp?url=http://www.tourfactory.com/1950102";
+            
+//            property3 = new Object();
+//            property3.imageurl = "images/Front_Website_Chevlott_Hills_Lake_Norman_NC.jpg";
+//            property3.address = "Lake Norman Waterfront in Sherrills Ford";
+//            property3.description = "Build Your Deam Home!";
+//            property3.price = "Price: $ 232,000";
+//            property3.readmoreurl = "featured_detail.asp?url=http://www.tourfactory.com/1106963"; 
+//            
+//            property2 = new Object();
+//            property2.imageurl = "images/4095_River_Birch_Dr_Iron_Station_NC_Website.png";
+//            property2.address = "4095 River Birch Drive";
+//            property2.description = "Beautiful Custom Built Home with an Open Floorplan";
+//            property2.price = "Price: $ 359,900";
+//            property2.readmoreurl = "featured_detail.asp?url=http://www.tourfactory.com/1608287";
+
+//            property3 = new Object();
+//            property3.imageurl = "images/Lot_3_River_Birch_Dr_Iron_Station_NC_Website.jpg";
+//            property3.address = "Lot 3 River Birch Drive";
+//            property3.description = "Located in Victoria Creek";
+//            property3.price = "Price: $ 25,500";
+//            property3.readmoreurl = "featured_detail.asp?url=http://www.tourfactory.com/1670363";
+
+//            property4 = new Object();
+//            property4.imageurl = "images/2351_Barrowcliffe_Dr_Concord_NC_Website.jpg";
+//            property4.address = "2351 Barrowcliffe Drive NW";
+//            property4.description = "4 Beds, 3.5 Bath, Full Brick, 2-car Garage";
+//            property4.price = "Price: $ 329,900";
+//            property4.readmoreurl = "featured_detail.asp?url=http://www.tourfactory.com/1490665";
+
+//            property4 = new Object();
+//            property4.imageurl = "images/1435_Riding_Trail_Lane_Concord_NC_Website.jpg";
+//            property4.address = "1435 Riding Trail Lane";
+//            property4.description = "Full Brick Ranch with 3 Beds, 2 Baths on over 1 Acre";
+//            property4.price = "Price: $ 209,000";
+//            property4.readmoreurl = "featured_detail.asp?url=http://www.tourfactory.com/1487791";
+
+//            property5 = new Object();
+//            property5.imageurl = "images/11050_Sudbury_Davidson_NC_Website.JPG";
+//            property5.address = "11050 Sudbury Road in Davidson";
+//            property5.description = "3 Beds, 3 Baths, Large Detached Garage";
+//            property5.price = "Price: $ 185,900";
+//            property5.readmoreurl = "featured_detail.asp?url=http://www.tourfactory.com/1238259";
+
+//            property6 = new Object();
+//            property6.imageurl = "images/Front_Website_Chevlott_Hills_Lake_Norman_NC.jpg";
+//            property6.address = "Lake Norman Waterfront in Sherrills Ford";
+//            property6.description = "Build Your Deam Home!";
+//            property6.price = "Price: $ 232,000";
+//            property6.readmoreurl = "featured_detail.asp?url=http://www.tourfactory.com/1106963";
+
+            buildSlider(property1.imageurl, property1.address, property1.description, property1.price, property1.readmoreurl);
+            buildSlider(property2.imageurl, property2.address, property2.description, property2.price, property2.readmoreurl);
+            buildSlider(property3.imageurl, property3.address, property3.description, property3.price, property3.readmoreurl);
+            buildSlider(property4.imageurl, property4.address, property4.description, property4.price, property4.readmoreurl);
+            buildSlider(property5.imageurl, property5.address, property5.description, property5.price, property5.readmoreurl);
+            buildSlider(property6.imageurl, property6.address, property6.description, property6.price, property6.readmoreurl);
+
+            function buildSlider(imageurl, address, description, price, readmoreurl) {
+                $("#slider").append('<img src="' + imageurl + '" title="<strong>' + address + '</strong><span>' + description + '&nbsp;&nbsp;&nbsp;' + price +
+                '&nbsp;&nbsp;&nbsp;<a href=' + readmoreurl + '>See more</a></span>" />');
+            }
+
+        });
+    </script>
+</head>
+<body id="page1">
+    <div class="body1">
+        <div class="main">
+            <!-- header -->
+            <header>
+          <h1 style="left: 0px; width: 183px;"><a href="index.html" id="logo"></a></h1>
+          <!--<img title="RJR Real Estate Group" alt="Buying Selling Real Estate"
+
+            src="images/RJR_3D_sm.jpg">&nbsp; <br>-->
+          <div class="wrapper">
+            <ul id="icons">
+              <li> <a class="normaltip" title="Facebook" href="https://www.facebook.com/RJRRealEstateGroup" target="_blank"><img src="images/RJR_Real_Estate_Group_on_Facebook_icon1.jpg" alt="RJR Real Estate Group on Facebook"></a></li>
+              <li> <a class="normaltip" title="Twitter" href="https://twitter.com/RJR_Real_Estate" target="_blank"><img src="images/RJR_Real_Estate_Group_on_Twitter_icon2.jpg" alt="RJR Real Estate Group on Twitter"></a></li>
+              <!--<li><a href="#" class="normaltip" title="Linkedin"><img src="images/icon3.jpg" alt=""></a></li>-->
+            </ul>
+          </div>
+          <nav>
+            <ul id="menu">
+              <li id="menu_active"><a href="index.html">Main Page</a></li>
+              <li><a href="Buying.html">Buying </a></li>
+              <li><a href="Selling.html">Selling</a></li>
+              <li><a href="Finance.html">Finance</a></li>
+              <li><a href="Aboutus.html">About Us</a></li>
+              <li class="end"><a href="Contacts.html">Contact Us</a></li>
+            </ul>
+          </nav>
+          <!--<div class="ic">More Website Templates @ TemplateMonster.com - October
+            10, 2011!</div>-->
+        </header>
+            <!-- / header -->
+        </div>
+    </div>
+    <!-- content -->
+    <div class="body2">
+        <div class="main">
+            <section id="content">
+          <div class="wrapper">
+            <article class="col1">
+              <div id="slider"> 
+                  <!-- this is the feature image gallary populated by javascript at the top -->                  
+              </div>
+            </article>
+            <article class="col2">
+            <form id="form_1" method="post" action="HuscuSearch.asp">
+                <div class="pad1">
+                  <h3>Find Your Property</h3>                 
+                  <div class="row_select"> Listing Type<br>
+                    <select name="listingtype">
+                        <option value="1" selected>ALL</option> 
+                        <option value="2">Single Family</option>
+                        <option value="3">Condo / Townhouse</option>
+                        <option value="4">Multi-Family </option>
+                        <option value="5">Lots / Acres / Farms </option>
+                        <option value="6">ALL </option>
+                        <option value="7">Rental </option>
+                    </select>
+                   </div>
+                  <div class="row_select">
+                   <div class="cols"> Price Range:<br>
+                      <select name="minprice">
+                        <option value="0">$ 0 </option>
+                        <option value="50000">$ 50,000</option>
+                        <option value="75000">$ 75,000</option>
+                        <option value="100000">$ 100,000</option>
+                        <option value="125000">$ 125,000</option>
+                        <option value="150000">$ 150,000</option>
+                        <option value="175000">$ 175,000</option>
+                        <option value="200000">$ 200,000</option>
+                        <option value="225000">$ 225,000</option>
+                        <option value="250000">$ 250,000</option>
+                        <option value="275000">$ 275,000</option>
+                        <option value="300000">$ 300,000</option>
+                        <option value="350000">$ 350,000</option>
+                        <option value="400000">$ 400,000</option>
+                        <option value="500000">$ 500,000</option>
+                        <option value="750000">$ 750,000</option>
+                        <option value="1000000">$ 1,000,000</option>
+                      </select>
+                    </div>
+                    <div class="cols pad_left1"> to:<br>
+                      <select name="maxprice">                       
+                        <option value="50000">$ 50,000</option>
+                        <option value="75000">$ 75,000</option>
+                        <option value="100000">$ 100,000</option>
+                        <option value="125000">$ 125,000</option>
+                        <option value="150000" selected>$ 150,000</option>
+                        <option value="175000">$ 175,000</option>
+                        <option value="200000">$ 200,000</option>
+                        <option value="225000">$ 225,000</option>
+                        <option value="250000">$ 250,000</option>
+                        <option value="275000">$ 275,000</option>
+                        <option value="300000">$ 300,000</option>
+                        <option value="350000">$ 350,000</option>
+                        <option value="400000">$ 400,000</option>
+                        <option value="500000">$ 500,000</option>
+                        <option value="750000">$ 750,000</option>
+                        <option value="1000000">$ 1,000,000</option>
+                        <option value="2000000">$ 2,000,000</option>
+                        <option value="5000000">$ 5,000,000</option>
+                        <option value="10000000">$ 10,000,000</option>
+                        <option value="1000000000">$ Unlimited</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row_select">
+                    <div class="cols"> Bedroom(s):<br>
+                      <select name="beds">
+                        <option value="0">ANY </option>
+                        <option value="1">1+ </option>
+                        <option value="2">2+ </option>
+                        <option value="3">3+ </option>
+                        <option value="4">4+ </option>
+                        <option value="5">5+ </option>
+                        <option value="6">6+ </option>
+                      </select>
+                    </div>
+                    <div class="cols pad_left1"> Bathroom(s):<br>
+                      <select name="baths">                      
+                        <option value="0">ANY </option>
+                        <option value="1">1+ </option>
+                        <option value="2">2+ </option>
+                        <option value="3">3+ </option>
+                        <option value="4">4+ </option>
+                        <option value="5">5+ </option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row_select pad_bot1">
+                    <div class="cols"> Area:<br>
+                      <select name="area">
+                        <option value="">All Areas</option>
+                            <option>Albemarle </option>
+                            <option>Belmont </option>
+                            <option>Charlotte </option>
+                            <option>China Grove </option>
+                            <option>Concord </option>
+                            <option>Cornelius </option>
+                            <option>Davidson </option>
+                            <option>Denver </option>
+                            <option>Enochville </option>
+                            <option>Fort Mill </option>
+                            <option>Gastonia </option>
+                            <option>Harrisburg </option>
+                            <option>Huntersville </option>
+                            <option>Indian Trail </option>
+                            <option>Kannapolis </option>
+                            <option>Lake Wylie </option>
+                            <option>Lancaster </option>
+                            <option>Landis </option>
+                            <option>Locust </option>
+                            <option>Matthews </option>
+                            <option>Midland </option>
+                            <option>Mint Hill </option>
+                            <option>Monroe </option>
+                            <option>Mooresville </option>
+                            <option>Mount Holly </option>
+                            <option>Mount Pleasant </option>
+                            <option>Oakboro </option>
+                            <option>Pineville </option>
+                            <option>Rock Hill </option>
+                            <option>Rockwell </option>
+                            <option>Rockwell </option>
+                            <option>Salisbury </option>
+                            <option>Stallings </option>
+                            <option>Stanfield </option>
+                            <option>Statesville </option>
+                            <option>Tega Cay </option>
+                            <option>Troutman </option>
+                            <option>Waxhaw </option>
+                            <option>Weddington </option>
+                            <option>York </option>
+                      </select>
+                    </div>
+                    <div class="cols pad_left1"> <a href="#" class="button" onclick="document.getElementById('form_1').submit()">Search</a>
+                    </div>
+                  </div>
+                  Know exactly what you want? <br>
+                  Try our <a href="Buying.html">Advanced Search</a> </div>
+              </form>
+            </article>
+          </div>
+          <div class="wrapper">
+            <article class="col1">
+              <div class="pad_left1">
+                <!--<h2 class="pad_bot1">Buyers. Sellers. Proprietors. Agents.</h2>-->
+                <div class="wrapper">
+                    <br />
+                    <br />
+                  <article class="cols">
+                    <h4 class="img1" alt="Buying a Home">Buying</h4>
+                    <p class="pad_bot1"><class="color1">Search Over 20,000<br />Homes for Sale</p>
+<!--                        <a href="Buying.html"
+                          target="_blank">Click Here</a></strong></p>-->
+                    <!--<p class="pad_bot2"> created by TemplateMonster.com team,
+                      optimized for 1024X768 px.</p>-->
+                    <a href="Buying.html" class="button">Click here</a> </article>
+                  <article class="cols pad_left1">
+                    <h4 class="img3" alt="Selling a Home">Selling</h4>
+                    <p class="pad_bot1"><class="color1">Learn about Selling with<br />Full Service for Less</a></p>
+<!--                    <p class="pad_bot2"><!-- goes with PSD source files and without
+                      them.-->
+                    <a href="Selling.html" class="button">Read more</a> </article>
+                  <article class="cols pad_left1">
+                    <h4 class="img2" alt="Home Financing Options for a Mortgage">Financing</h4>
+                    <p class="pad_bot1"><class="color1">Create your Home Purchase<br />Financing Plan</p>
+<!--                    <p class="pad_bot2"> <a href="index.html" class="color2">Main</a>,
+                      <a href="Buying.html" class="color2">Buying</a>, <a href="Finance.html"-->
+<!--                        class="color2">Selling</a>, <a href="Renting.html" class="color2">Renting</a>,
+                      <a href="Finance.html" class="color2">Finance</a>, <a href="Contacts.html"-->
+<!--
+                        class="color2">Contacts</a></p>-->
+                    <a href="Finance.html" class="button">Read more</a> </article>
+                </div>
+              </div>
+            </article>
+            <article class="col2">
+              <div class="pad1">
+                <!--<h3>Special Offers</h3>
+                <ul class="list1">
+                  <li><a href="#">Home Loan Offer</a></li>
+                  <li><a href="#">Free Calculators</a></li>
+                  <li><a href="#">Free Loan Tools</a></li>
+                  <li><a href="#">Value Your Home</a></li>
+                  <li><a href="#">Recently Sold Properties</a></li>
+                  <li><a href="#">Suburb Statistics</a></li>
+                  <li><a href="#">Compare Property Prices</a></li>
+                </ul>-->
+              </div>
+            </article>
+          </div>
+        </section>
+        </div>
+    </div>
+    <div class="body3">
+        <div class="main">
+            <section id="content2">
+          <div class="wrapper">
+            <article class="col1">
+              <div class="pad2">
+                <!--<h2>Remodeling Rooms</h2>
+                <div class="wrapper pad_bot3">
+                  <figure class="left marg_right1"><img src="images/page1_img4.jpg"
+
+                      alt=""></figure>
+                  <p class="pad_bot1"><strong class="color2">2006, 3 baths, 6
+                      beds, building size: 5000 sq. ft.<br>
+                      Price: <span class="color1">$ 600 000</span></strong></p>
+                  <p class="pad_bot2"> Massa dictum ementum velitumo od
+                    consequat ante oremsumas ame consectetueraipiscing eliteli
+                    ueedlorAliquam conguen nisauris accusalla vel deinol
+                    tincidunt ligula magna semper ipsum.</p>
+                  <a href="#" class="button">Read more</a> </div>
+                <div class="wrapper">
+                  <figure class="left marg_right1"><img src="images/page1_img5.jpg"
+
+                      alt=""></figure>
+                  <p class="pad_bot1"><strong class="color2">2006, 3 baths, 6
+                      beds, building size: 5000 sq. ft.<br>
+                      Price: <span class="color1">$ 600 000</span></strong></p>
+                  <p class="pad_bot2"> Massa dictum ementum velitumo od
+                    consequat ante oremsumas ame consectetueraipiscing eliteli
+                    ueedlorAliquam conguen nisauris accusalla vel deinol
+                    tincidunt ligula magna semper ipsum.</p>
+                  <a href="#" class="button">Read more</a> </div>-->
+              </div>
+            </article>
+            <article class="col2">
+              <div class="pad1">
+                <!--<h3>Recent News</h3>
+                <div class="wrapper"> <span class="date"><strong>28</strong><span>may</span></span>
+                  <p><a href="#" class="color2">Donec consequat risus</a><br>
+                    Hendrerit conghdim entum diam metus fringilla nisl, in porta
+                    sapien purus quis odiosem... <a href="#">more</a></p>-->
+                </div>
+                <!--<div class="wrapper"> <span class="date"><strong>25</strong><span>may</span></span>
+                  <p><a href="#" class="color2">Nullam dignissim</a><br>
+                    Laoreet neque, quis sollicitudin orci tempus etiam viverra
+                    leo euismod pulvinar accumsan... <a href="#">more</a></p>-->
+                </div>
+               <!-- <div class="wrapper"> <span class="date"><strong>22</strong><span>may</span></span>
+                  <p><a href="#" class="color2">Quisque nunc lorem</a><br>
+                    Feugiat nec sodales quis, iaculis sed libero. Cras vel nisl
+                    justo, ac posuere est nulla facilisi... <a href="#">more</a>-->
+            </p>
+        </div>
+    </div>
+    </article> </div> </section> </div> </div>
+    <!-- / content -->
+    <div class="body4">
+        <div class="main">
+            <!-- footer -->
+            <footer> <span class="call">Call Center: <span>1-704-784-1417</span></span>
+          <a rel="nofollow" href="Privacy.html" target="_parent">Privacy
+            Policy</a> Copyright &copy 2002-<script language="javascript" type="text/javascript">
+                                                var today = new Date()
+                                                var year = today.getFullYear()
+                                                document.write(year)
+</script>
+ RJR Real Estate Group Inc. All
+          rights reserved.<br>
+          <!--<a rel="nofollow" href="Privacy.html" target="_parent">Privacy
+            Policy</a> Copyright &copy 2002-2015 RJR Real Estate Group Inc. All
+          rights reserved.<br>-->
+            <br />
+            <ul id="Ul1">
+              <li> <a class="normaltip"><img src="images/realtor-logo-group.png" alt="Fully Licensed and Members of the local Realtor board and MLS"></a></li>
+            </ul>
+            <br>
+          <!-- {%FOOTER_LINK} --> </footer>
+            <!-- / footer -->
+        </div>
+    </div>
+    <script type="text/javascript">        Cufon.now(); </script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                effect: 'sliceUpDown', //Specify sets like: 'fold,fade,sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft'
+                slices: 17,
+                animSpeed: 500,
+                pauseTime: 6000,
+                startSlide: 0, //Set starting Slide (0 index)
+                directionNav: false, //Next & Prev
+                directionNavHide: false, //Only show on hover
+                controlNav: true, //1,2,3...
+                controlNavThumbs: false, //Use thumbnails for Control Nav
+                controlNavThumbsFromRel: false, //Use image rel for thumbs
+                controlNavThumbsSearch: '.jpg', //Replace this with...
+                controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+                keyboardNav: true, //Use left & right arrows
+                pauseOnHover: true, //Stop animation while hovering
+                manualAdvance: false, //Force manual transitions
+                captionOpacity: 1, //Universal caption opacity
+                beforeChange: function () { $('.nivo-caption').animate({ bottom: '-110' }, 400, 'easeInBack') },
+                afterChange: function () { Cufon.refresh(); $('.nivo-caption').animate({ bottom: '-20' }, 400, 'easeOutBack') },
+                slideshowEnd: function () { } //Triggers after all slides have been shown
+            });
+            Cufon.refresh();
+        });
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-48084800-1', 'choosecarolinas.com');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
